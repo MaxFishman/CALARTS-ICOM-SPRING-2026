@@ -46,12 +46,6 @@ Each week folder contains:
 - `code-examples/` - Hands-on coding examples and demonstrations
 - `README.md` - Weekly overview, topics, and assignments
 
-## Getting Started
-
-1. Navigate to the appropriate week folder
-2. Review the weekly README for topics covered
-3. Study the lecture notes in the `notes/` directory
-4. Practice with the code examples in the `code-examples/` directory
 
 ## Course Information
 
