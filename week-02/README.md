@@ -36,4 +36,4 @@ See the `code-examples/` directory for hands-on coding examples.
   - **Extra Credit:** Use an img tag to display an image
 
 ## Resources
-- TBD
+
