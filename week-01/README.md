@@ -10,6 +10,10 @@ Creative Computing at California Institute of the Arts is a forward-thinking int
 
 # Week 1
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/240px-Google_Chrome_icon_%28September_2014%29.svg.png" alt="Web Browser" width="120"/>
+</p>
+
 ## Topics Covered
 
 ### Web Fundamentals

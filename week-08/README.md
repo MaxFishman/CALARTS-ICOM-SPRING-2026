@@ -1,5 +1,9 @@
 # Week 8
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/240px-JavaScript-logo.png" alt="JavaScript" width="120"/>
+</p>
+
 ## Topics Covered
 
 ### Basic JavaScript

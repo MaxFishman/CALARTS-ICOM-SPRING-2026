@@ -1,5 +1,9 @@
 # Week 7
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/240px-HTML5_logo_and_wordmark.svg.png" alt="Responsive Web Design" width="120"/>
+</p>
+
 ## Topics Covered
 
 *From this point onwards the schedule is more open, we may revisit some older material that is still unclear, or push forward and focus on whatever everyone is excited about.*

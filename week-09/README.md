@@ -1,5 +1,9 @@
 # Week 9
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/240px-WordPress_blue_logo.svg.png" alt="WordPress" width="120"/>
+</p>
+
 ## Topics Covered
 
 ### WordPress
