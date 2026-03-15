@@ -1,5 +1,9 @@
 # Week 6
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/240px-Octicons-mark-github.svg.png" alt="GitHub" width="120"/>
+</p>
+
 ## Topics Covered
 
 ### Deployment

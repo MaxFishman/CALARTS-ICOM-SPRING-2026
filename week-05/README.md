@@ -1,5 +1,9 @@
 # Week 5
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1_35_icon.svg/240px-Visual_Studio_Code_1_35_icon.svg.png" alt="VS Code" width="120"/>
+</p>
+
 ## Topics Covered
 
 ### Leaving Glitch!

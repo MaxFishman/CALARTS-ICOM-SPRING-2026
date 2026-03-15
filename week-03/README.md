@@ -1,5 +1,9 @@
 # Week 3
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/240px-CSS3_logo_and_wordmark.svg.png" alt="CSS3" width="120"/>
+</p>
+
 ## Topics Covered
 
 ### Introduction to CSS

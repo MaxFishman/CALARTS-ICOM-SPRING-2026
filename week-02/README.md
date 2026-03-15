@@ -1,5 +1,9 @@
 # Week 2
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/240px-HTML5_logo_and_wordmark.svg.png" alt="HTML5" width="120"/>
+</p>
+
 ## Topics Covered
 
 ### Introduction to HTML
