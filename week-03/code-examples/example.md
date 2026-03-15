@@ -338,7 +338,7 @@ p {
     /* Transparent overlay example */
     .overlay-demo {
       position: relative;
-      background-image: url('https://via.placeholder.com/400x200');
+      background-image: url('https://placehold.co/400x200');
       height: 200px;
       margin: 20px;
     }
