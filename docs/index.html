@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ICOM 101 – Media & Web Development | CalArts Spring 2026</title>
+  <meta name="description" content="Course site for ICOM 101 / MTEC-617 – Media and Web Development at California Institute of the Arts, Spring 2026." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── NAV ─────────────────────────────────────────────── -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#" class="nav-brand">
+        <span class="nav-brand-abbr">ICOM&nbsp;101</span>
+        <span class="nav-brand-sub">CalArts · Spring 2026</span>
+      </a>
+      <button class="nav-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#syllabus">Syllabus</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li>
+          <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026" target="_blank" rel="noopener" class="btn btn-outline">
+            GitHub&nbsp;↗
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ── HERO ─────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-logos">
+        <img src="https://www.hanoverresearch.com/wp-content/uploads/2020/05/CALARTS-01.png"
+             alt="CalArts logo" class="hero-logo" loading="lazy" />
+        <img src="https://creativecomputing.calarts.edu/wp-content/uploads/2024/11/download-1-1.png"
+             alt="Creative Computing logo" class="hero-logo" loading="lazy" />
+      </div>
+      <h1 class="hero-title">Media &amp; Web Development</h1>
+      <p class="hero-sub">ICOM-101-01 / MTEC-617-01 &nbsp;·&nbsp; Spring 2026 &nbsp;·&nbsp; 2 Credits</p>
+      <p class="hero-desc">
+        An introduction to practical web development for artists. Learn HTML, CSS, and JavaScript
+        while building your own portfolio site – from first tag to live deployment.
+      </p>
+      <div class="hero-actions">
+        <a href="#schedule" class="btn btn-primary">View Schedule</a>
+        <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026" target="_blank" rel="noopener" class="btn btn-secondary">
+          Browse Repo&nbsp;↗
+        </a>
+      </div>
+      <div class="hero-badges">
+        <span class="badge">12 Weeks</span>
+        <span class="badge">HTML · CSS · JS</span>
+        <span class="badge">GitHub Pages</span>
+        <span class="badge">WordPress</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── OVERVIEW ──────────────────────────────────────────── -->
+  <section class="section" id="overview">
+    <div class="container">
+      <h2 class="section-title">Course Overview</h2>
+      <div class="overview-grid">
+        <div class="overview-card">
+          <div class="overview-icon">🎓</div>
+          <h3>Student Learning Outcomes</h3>
+          <ul>
+            <li>Master the tools &amp; technologies behind modern front-end web development.</li>
+            <li>Represent yourself and your practice through a live personal website.</li>
+            <li>Develop computer science fundamentals: terminal, Git, dev servers, and more.</li>
+          </ul>
+        </div>
+        <div class="overview-card">
+          <div class="overview-icon">💻</div>
+          <h3>Equipment &amp; Software</h3>
+          <ul>
+            <li>A computer with internet access</li>
+            <li>VS Code, Atom, or Sublime Text (installed in class)</li>
+            <li>A modern web browser (Chrome, Firefox, Safari, Edge)</li>
+            <li>Node.js (installed in class)</li>
+          </ul>
+        </div>
+        <div class="overview-card">
+          <div class="overview-icon">📊</div>
+          <h3>Grading</h3>
+          <ul>
+            <li><strong>Assignments:</strong> 70%</li>
+            <li><strong>Final Project:</strong> 30%</li>
+            <li>3 absences → NX grade</li>
+            <li>Missing final project → NC grade</li>
+          </ul>
+        </div>
+        <div class="overview-card">
+          <div class="overview-icon">👤</div>
+          <h3>Instructor</h3>
+          <ul>
+            <li><strong>Max Fishman</strong></li>
+            <li>
+              <a href="mailto:maxfishman@alum.calarts.edu">maxfishman@alum.calarts.edu</a>
+            </li>
+            <li>
+              <a href="https://creativecomputing.calarts.edu/" target="_blank" rel="noopener">
+                Creative Computing @ CalArts&nbsp;↗
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SYLLABUS ───────────────────────────────────────────── -->
+  <section class="section section-alt" id="syllabus">
+    <div class="container">
+      <h2 class="section-title">Syllabus</h2>
+      <div class="syllabus-grid">
+        <div class="syllabus-block">
+          <h3>Course Description</h3>
+          <p>
+            This course provides an introduction to practical web development for artists. Each
+            student will learn the basics of HTML and CSS, and how to combine them into a
+            functioning portfolio website. Students will learn how to work with rich media sources,
+            create dynamic animations, and deploy content to the web using free and open‑source
+            tools. The final project is to have a personal website up and running.
+          </p>
+        </div>
+        <div class="syllabus-block">
+          <h3>Time Commitment</h3>
+          <ul>
+            <li><strong>Undergrad:</strong> 6 hrs/week (including lectures)</li>
+            <li><strong>Grad:</strong> 8 hrs/week (including lectures)</li>
+          </ul>
+          <h3 style="margin-top:1.5rem">Expected Expenses</h3>
+          <p>
+            Purchasing a domain name is optional but strongly encouraged (~$10/yr for
+            <code>.com</code>, <code>.me</code>, <code>.art</code>, etc.).
+          </p>
+        </div>
+        <div class="syllabus-block">
+          <h3>Academic Integrity</h3>
+          <p>
+            Plagiarism—including uncredited code—is subject to disciplinary action per CalArts
+            policy. If you use code written by someone else, include an attribution comment with
+            the author's name and URL.
+          </p>
+        </div>
+        <div class="syllabus-block">
+          <h3>Accessibility</h3>
+          <p>
+            Students with documented disabilities should contact the Office of Student Affairs
+            (A207) early in the semester to arrange accommodations.
+          </p>
+        </div>
+      </div>
+      <div class="syllabus-links">
+        <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/syllabus.md"
+           target="_blank" rel="noopener" class="btn btn-outline">
+          Full Syllabus&nbsp;↗
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WEEKLY SCHEDULE ───────────────────────────────────── -->
+  <section class="section" id="schedule">
+    <div class="container">
+      <h2 class="section-title">Weekly Schedule</h2>
+      <p class="section-subtitle">Click any week card to explore notes, examples, and assignments.</p>
+
+      <div class="week-grid">
+
+        <!-- Week 1 -->
+        <article class="week-card" data-week="1">
+          <div class="week-card-header">
+            <span class="week-num">Week 1</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/120px-Google_Chrome_icon_%28September_2014%29.svg.png"
+                 alt="" class="week-icon" loading="lazy" />
+          </div>
+          <h3 class="week-title">Web Fundamentals &amp; Dev Tools</h3>
+          <ul class="week-topics">
+            <li>Internet history &amp; how the web works</li>
+            <li>IP addresses, DNS, client-server</li>
+            <li>Browser Developer Tools</li>
+            <li>Course setup &amp; syllabus review</li>
+          </ul>
+          <div class="week-links">
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-01/README.md" target="_blank" rel="noopener" class="week-link">📖 Notes</a>
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-01/code-examples/example.md" target="_blank" rel="noopener" class="week-link">💻 Examples</a>
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-01/Assignment%20Week-01.md" target="_blank" rel="noopener" class="week-link week-link-hw">📝 Assignment</a>
+          </div>
+        </article>
+
+        <!-- Week 2 -->
+        <article class="week-card" data-week="2">
+          <div class="week-card-header">
+            <span class="week-num">Week 2</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png"
+                 alt="" class="week-icon" loading="lazy" />
+          </div>
+          <h3 class="week-title">Introduction to HTML</h3>
+          <ul class="week-topics">
+            <li>Elements, tags &amp; attributes</li>
+            <li>Typography: h1–h6, p, em, strong</li>
+            <li>Layout: div, span, section, article</li>
+            <li>Links &amp; images: a, img</li>
+          </ul>
+          <div class="week-links">
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-02/README.md" target="_blank" rel="noopener" class="week-link">📖 Notes</a>
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-02/code-examples/example.md" target="_blank" rel="noopener" class="week-link">💻 Examples</a>
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-02/Assignment%20Week-02.md" target="_blank" rel="noopener" class="week-link week-link-hw">📝 Assignment</a>
+          </div>
+        </article>
+
+        <!-- Week 3 -->
+        <article class="week-card" data-week="3">
+          <div class="week-card-header">
+            <span class="week-num">Week 3</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/120px-CSS3_logo_and_wordmark.svg.png"
+                 alt="" class="week-icon" loading="lazy" />
+          </div>
+          <h3 class="week-title">Introduction to CSS</h3>
+          <ul class="week-topics">
+            <li>Selectors: tag, class, ID, child &amp; sibling</li>
+            <li>Color: hex, rgb, named colors</li>
+            <li>Fonts: system, Google Fonts, Calligraphr</li>
+            <li>CSS Box Model: padding, margin, border</li>
+          </ul>
+          <div class="week-links">
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-03/README.md" target="_blank" rel="noopener" class="week-link">📖 Notes</a>
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-03/code-examples/example.md" target="_blank" rel="noopener" class="week-link">💻 Examples</a>
+          </div>
+        </article>
+
+        <!-- Week 4 -->
+        <article class="week-card" data-week="4">
+          <div class="week-card-header">
+            <span class="week-num">Week 4</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/120px-CSS3_logo_and_wordmark.svg.png"
+                 alt="" class="week-icon" loading="lazy" />
+          </div>
+          <h3 class="week-title">Advanced CSS</h3>
+          <ul class="week-topics">
+            <li>Flexbox &amp; CSS Grid</li>
+            <li>Background images &amp; video</li>
+            <li>Pseudo-selectors: :hover, :active, :visited</li>
+            <li>Gradients, transitions &amp; animations</li>
+          </ul>
+          <div class="week-links">
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-04/README.md" target="_blank" rel="noopener" class="week-link">📖 Notes</a>
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-04/code-examples/example.md" target="_blank" rel="noopener" class="week-link">💻 Examples</a>
+          </div>
+        </article>
+
+        <!-- Week 5 -->
+        <article class="week-card" data-week="5">
+          <div class="week-card-header">
+            <span class="week-num">Week 5</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1_35_icon.svg/120px-Visual_Studio_Code_1_35_icon.svg.png"
+                 alt="" class="week-icon" loading="lazy" />
+          </div>
+          <h3 class="week-title">Text Editors &amp; Dev Servers</h3>
+          <ul class="week-topics">
+            <li>Installing VS Code</li>
+            <li>File structure &amp; Unix paths</li>
+            <li>head, body, style tags</li>
+            <li>Installing Node.js &amp; running a dev server</li>
+          </ul>
+          <div class="week-links">
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-05/README.md" target="_blank" rel="noopener" class="week-link">📖 Notes</a>
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-05/code-examples/example.md" target="_blank" rel="noopener" class="week-link">💻 Examples</a>
+          </div>
+        </article>
+
+        <!-- Week 6 -->
+        <article class="week-card" data-week="6">
+          <div class="week-card-header">
+            <span class="week-num">Week 6</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/120px-Octicons-mark-github.svg.png"
+                 alt="" class="week-icon" loading="lazy" />
+          </div>
+          <h3 class="week-title">Deployment &amp; Custom Domains</h3>
+          <ul class="week-topics">
+            <li>GitHub Pages</li>
+            <li>Google Cloud &amp; AWS</li>
+            <li>Buying &amp; linking a custom domain</li>
+          </ul>
+          <div class="week-links">
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-06/README.md" target="_blank" rel="noopener" class="week-link">📖 Notes</a>
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-06/code-examples/example.md" target="_blank" rel="noopener" class="week-link">💻 Examples</a>
+          </div>
+        </article>
+
+        <!-- Week 7 -->
+        <article class="week-card" data-week="7">
+          <div class="week-card-header">
+            <span class="week-num">Week 7</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png"
+                 alt="" class="week-icon" loading="lazy" />
+          </div>
+          <h3 class="week-title">Responsive Web Development</h3>
+          <ul class="week-topics">
+            <li>Mobile-first &amp; responsive design</li>
+            <li>CSS Media Queries</li>
+            <li>Bootstrap &amp; Material CSS frameworks</li>
+            <li>Testing with DevTools &amp; Simulator</li>
+          </ul>
+          <div class="week-links">
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-07/README.md" target="_blank" rel="noopener" class="week-link">📖 Notes</a>
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-07/code-examples/example.md" target="_blank" rel="noopener" class="week-link">💻 Examples</a>
+          </div>
+        </article>
+
+        <!-- Week 8 -->
+        <article class="week-card" data-week="8">
+          <div class="week-card-header">
+            <span class="week-num">Week 8</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/120px-JavaScript-logo.png"
+                 alt="" class="week-icon" loading="lazy" />
+          </div>
+          <h3 class="week-title">Basic JavaScript</h3>
+          <ul class="week-topics">
+            <li>Listening for events: click, hover, keypress</li>
+            <li>Animation with jQuery / anime.js</li>
+            <li>Selecting elements with jQuery</li>
+            <li>Working with external libraries</li>
+          </ul>
+          <div class="week-links">
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-08/README.md" target="_blank" rel="noopener" class="week-link">📖 Notes</a>
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-08/code-examples/example.md" target="_blank" rel="noopener" class="week-link">💻 Examples</a>
+          </div>
+        </article>
+
+        <!-- Week 9 -->
+        <article class="week-card" data-week="9">
+          <div class="week-card-header">
+            <span class="week-num">Week 9</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/120px-WordPress_blue_logo.svg.png"
+                 alt="" class="week-icon" loading="lazy" />
+          </div>
+          <h3 class="week-title">WordPress</h3>
+          <ul class="week-topics">
+            <li>Creating a WordPress site</li>
+            <li>Posts, pages, themes, menus, plugins</li>
+            <li>Hosting options: wordpress.com, Local</li>
+            <li>Updates, backups &amp; security</li>
+          </ul>
+          <div class="week-links">
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-09/README.md" target="_blank" rel="noopener" class="week-link">📖 Notes</a>
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-09/code-examples/example.md" target="_blank" rel="noopener" class="week-link">💻 Examples</a>
+          </div>
+        </article>
+
+        <!-- Week 10 -->
+        <article class="week-card" data-week="10">
+          <div class="week-card-header">
+            <span class="week-num">Week 10</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1_35_icon.svg/120px-Visual_Studio_Code_1_35_icon.svg.png"
+                 alt="" class="week-icon" loading="lazy" />
+          </div>
+          <h3 class="week-title">Workshop Time</h3>
+          <ul class="week-topics">
+            <li>Free work period for final projects</li>
+            <li>Address roadblocks &amp; review key concepts</li>
+          </ul>
+          <div class="week-links">
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-10/README.md" target="_blank" rel="noopener" class="week-link">📖 Notes</a>
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-10/code-examples/example.md" target="_blank" rel="noopener" class="week-link">💻 Examples</a>
+          </div>
+        </article>
+
+        <!-- Week 11 -->
+        <article class="week-card week-card--final" data-week="11">
+          <div class="week-card-header">
+            <span class="week-num">Week 11</span>
+            <span class="week-badge">Final</span>
+          </div>
+          <h3 class="week-title">Final Project Presentations</h3>
+          <ul class="week-topics">
+            <li>Student presentations of final projects</li>
+            <li>Peer feedback &amp; critique</li>
+          </ul>
+          <div class="week-links">
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-11/README.md" target="_blank" rel="noopener" class="week-link">📖 Notes</a>
+          </div>
+        </article>
+
+        <!-- Week 12 -->
+        <article class="week-card week-card--final" data-week="12">
+          <div class="week-card-header">
+            <span class="week-num">Week 12</span>
+            <span class="week-badge">Final</span>
+          </div>
+          <h3 class="week-title">Final Project Presentations</h3>
+          <ul class="week-topics">
+            <li>Continued student presentations</li>
+            <li>Course wrap-up</li>
+          </ul>
+          <div class="week-links">
+            <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/week-12/README.md" target="_blank" rel="noopener" class="week-link">📖 Notes</a>
+          </div>
+        </article>
+
+      </div><!-- /.week-grid -->
+    </div>
+  </section>
+
+  <!-- ── RESOURCES ──────────────────────────────────────────── -->
+  <section class="section section-alt" id="resources">
+    <div class="container">
+      <h2 class="section-title">Resources</h2>
+      <div class="resources-grid">
+
+        <div class="resource-card">
+          <h3>🌐 Web Fundamentals</h3>
+          <ul>
+            <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener">W3Schools</a></li>
+            <li><a href="https://web.dev/" target="_blank" rel="noopener">web.dev (Google)</a></li>
+            <li><a href="https://www.internetsociety.org/internet/history-internet/brief-history-internet/" target="_blank" rel="noopener">Brief History of the Internet</a></li>
+          </ul>
+        </div>
+
+        <div class="resource-card">
+          <h3>🎨 CSS &amp; Design</h3>
+          <ul>
+            <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="noopener">CSS-Tricks: Flexbox Guide</a></li>
+            <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank" rel="noopener">CSS-Tricks: Grid Guide</a></li>
+            <li><a href="https://fonts.google.com/" target="_blank" rel="noopener">Google Fonts</a></li>
+            <li><a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap</a></li>
+          </ul>
+        </div>
+
+        <div class="resource-card">
+          <h3>⚡ JavaScript</h3>
+          <ul>
+            <li><a href="https://javascript.info/" target="_blank" rel="noopener">javascript.info</a></li>
+            <li><a href="https://jquery.com/" target="_blank" rel="noopener">jQuery</a></li>
+            <li><a href="https://animejs.com/" target="_blank" rel="noopener">anime.js</a></li>
+            <li><a href="https://developer.chrome.com/docs/devtools/" target="_blank" rel="noopener">Chrome DevTools</a></li>
+          </ul>
+        </div>
+
+        <div class="resource-card">
+          <h3>🚀 Deployment</h3>
+          <ul>
+            <li><a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a></li>
+            <li><a href="https://wordpress.com/" target="_blank" rel="noopener">WordPress.com</a></li>
+            <li><a href="https://localwp.com/" target="_blank" rel="noopener">Local by Flywheel</a></li>
+            <li><a href="https://pagespeed.web.dev/" target="_blank" rel="noopener">PageSpeed Insights</a></li>
+          </ul>
+        </div>
+
+        <div class="resource-card">
+          <h3>🛠 Tools</h3>
+          <ul>
+            <li><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VS Code</a></li>
+            <li><a href="https://glitch.com/" target="_blank" rel="noopener">Glitch</a></li>
+            <li><a href="https://codepen.io/" target="_blank" rel="noopener">CodePen</a></li>
+            <li><a href="https://howdns.works/" target="_blank" rel="noopener">How DNS Works</a></li>
+          </ul>
+        </div>
+
+        <div class="resource-card">
+          <h3>📚 CalArts</h3>
+          <ul>
+            <li><a href="https://creativecomputing.calarts.edu/" target="_blank" rel="noopener">Creative Computing Program</a></li>
+            <li><a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026" target="_blank" rel="noopener">Course Repository</a></li>
+            <li><a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026/blob/main/syllabus.md" target="_blank" rel="noopener">Full Syllabus</a></li>
+            <li><a href="mailto:maxfishman@alum.calarts.edu">Contact Instructor</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-logos">
+        <img src="https://www.hanoverresearch.com/wp-content/uploads/2020/05/CALARTS-01.png"
+             alt="CalArts" class="footer-logo" loading="lazy" />
+      </div>
+      <div class="footer-text">
+        <p>
+          <strong>ICOM-101-01 / MTEC-617-01</strong> &nbsp;·&nbsp; Media &amp; Web Development &nbsp;·&nbsp; Spring 2026
+        </p>
+        <p>
+          Instructor: <a href="mailto:maxfishman@alum.calarts.edu">Max Fishman</a> &nbsp;·&nbsp;
+          <a href="https://creativecomputing.calarts.edu/" target="_blank" rel="noopener">Creative Computing @ CalArts</a>
+        </p>
+        <p class="footer-copy">
+          Course materials are for educational use. &copy; 2026 California Institute of the Arts.
+        </p>
+      </div>
+      <div class="footer-github">
+        <a href="https://github.com/MaxFishman/CALARTS-ICOM-SPRING-2026" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+          View on GitHub&nbsp;↗
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const menuBtn = document.querySelector('.nav-menu-btn');
+    const navLinks = document.getElementById('nav-links');
+    menuBtn.addEventListener('click', () => {
+      const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
+      menuBtn.setAttribute('aria-expanded', String(!expanded));
+      navLinks.classList.toggle('is-open');
+    });
+    // Close nav on link click (mobile)
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.classList.remove('is-open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      });
+    });
+    // Sticky header shadow on scroll
+    const header = document.querySelector('.site-header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 10);
+    }, { passive: true });
+  </script>
+</body>
+</html>
