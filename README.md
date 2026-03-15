@@ -5,7 +5,6 @@
   <img src="https://creativecomputing.calarts.edu/wp-content/uploads/2024/11/download-1-1.png" alt="Calarts Creative Computing Logo" width="300"/>
 </p>
 
-[Zoom with Max]([url](https://calendly.com/maxjfishman/30-min-zoom-call-with-max))
 
 ## Student Learning Outcomes
 
