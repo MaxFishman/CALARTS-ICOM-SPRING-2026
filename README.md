@@ -112,6 +112,8 @@ Plagiarism is the use of ideas and/or quotations (from the Internet, books, film
 ## According to CalArts policy, students who misrepresent source material as their own original work and fail to credit it have committed plagiarism and are subject to disciplinary action, as determined by the faculty member, the dean of the student’s school and the Office of the Provost.
 If you have questions regarding plagiarism or would like direction on how to credit source material, there are reference guides on permanent reserve in the CalArts library. Please contact one of the CalArts reference librarians for more information.
 
-## These ideas are just as viable in the world of computer programming. If you use code written by someone else, you must provide attribution by including an authors name and/or url in your code comments!
+## These ideas are just as viable in the world of computer programming.
+If you use code written by someone else, you must provide attribution by including an authors name and/or url in your code comments!
 
-## Students with Disabilities: Students who have documented disabilities and who want to request accommodations should first go to the Student Affairs office in A207. The Office of Student Affairs will meet with students and communicate with their faculty about appropriate classroom accommodations. Students are encouraged to use these procedures early in the semester, so that the proper arrangements can be in place throughout the course.
+## Students with Disabilities: 
+Students who have documented disabilities and who want to request accommodations should first go to the Student Affairs office in A207. The Office of Student Affairs will meet with students and communicate with their faculty about appropriate classroom accommodations. Students are encouraged to use these procedures early in the semester, so that the proper arrangements can be in place throughout the course.
