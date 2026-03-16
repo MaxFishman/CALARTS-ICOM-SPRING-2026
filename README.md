@@ -53,9 +53,12 @@ Each week folder contains:
 
 ## Course Information
 
-- **Course**: ICOM 101
-- **Semester**: Spring 2026
-- **Duration**: 12 weeks
+- ##
+- Course: ICOM 101
+- ##
+- Semester: Spring 2026
+- ##
+- Duration: 12 weeks
 
 
 
