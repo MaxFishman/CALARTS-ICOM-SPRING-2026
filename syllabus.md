@@ -1,5 +1,5 @@
-# Media and Web Development - Fall 2026
-#ICOM-101-01 / MTEC-617-01
+## Media and Web Development - Fall 2026
+## ICOM-101-01 / MTEC-617-01
 ## Course Credit: 2.0
 
 ## Instructor: Max Fishman - maxfishman@alum.calarts.edu
@@ -30,8 +30,9 @@ Purchasing a domain name to use as your website URL is an optional, but strongly
 
 ## Assignments: 70%
 
-## Final Project: 30% - Failure to submit a final project will yield an NC grade for the course.
-Units
+## Final Project: 30% - 
+Failure to submit a final project will yield an NC grade for the course units
+
 ## Undergraduate students should be committing a total of 6 hours per week, including lectures.
 
 ## Graduate students should be committing a total of 8 hours per week, including lectures.
