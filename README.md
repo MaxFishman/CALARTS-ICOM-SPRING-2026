@@ -77,10 +77,12 @@ Creative Computing at California Institute of the Arts is a forward-thinking int
 ---
 
  ## Media and Web Development - Fall 2026
-##ICOM-101-01 / MTEC-617-01
+## 
+ICOM-101-01 / MTEC-617-01
 
 ## Course Credit: 2.0
-##Instructor: Max Fishman - maxfishman@alum.calarts.edu
+## 
+Instructor: Max Fishman - maxfishman@alum.calarts.edu
 
 
 ## Course Description
