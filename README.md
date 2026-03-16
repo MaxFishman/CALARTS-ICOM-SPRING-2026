@@ -7,7 +7,6 @@
 
 
 ## Student Learning Outcomes
-
 - Students will learn the tools and technologies behind modern front end web development.
 - Students will gain the skills needed to represent themselves and their practice through their website and web applications.
 - Students will improve their computer science fundamentals by learning how to use the command line (terminal) and the developer tools built into it.
@@ -110,7 +109,6 @@ Inappropriate, aggressive, or offensive behavior or language, or provocation of 
 Plagiarism is the use of ideas and/or quotations (from the Internet, books, films, television, newspapers, articles, the work of other students, works of art, media, etc.) without proper credit to the author/artist. While the argument in a paper can be enhanced by research, students are cautioned to delineate clearly their own original ideas from source material. Students should introduce source material (either quoted or paraphrased); note when the source material ends; and provide citations for source materials using standard documentation formats.
 
 ## According to CalArts policy, students who misrepresent source material as their own original work and fail to credit it have committed plagiarism and are subject to disciplinary action, as determined by the faculty member, the dean of the student’s school and the Office of the Provost.
-
 If you have questions regarding plagiarism or would like direction on how to credit source material, there are reference guides on permanent reserve in the CalArts library. Please contact one of the CalArts reference librarians for more information.
 
 ## These ideas are just as viable in the world of computer programming.
