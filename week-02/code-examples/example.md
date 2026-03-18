@@ -119,7 +119,7 @@ and each one will be separated by default spacing.</p>
 <img src="logo.png" alt="Company Logo" width="200" height="100">
 
 <!-- Image from external source -->
-<img src="https://via.placeholder.com/300" alt="Placeholder Image">
+<img src="https://placehold.co/300" alt="Placeholder Image">
 ```
 
 ### Images with Links

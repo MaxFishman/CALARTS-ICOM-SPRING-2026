@@ -498,7 +498,7 @@
     /* Method 3: Background images with media queries */
     .hero {
       height: 400px;
-      background-image: url('https://via.placeholder.com/800x400');
+      background-image: url('https://placehold.co/800x400');
       background-size: cover;
       background-position: center;
       display: flex;
@@ -511,13 +511,13 @@
 
     @media (min-width: 768px) {
       .hero {
-        background-image: url('https://via.placeholder.com/1200x400');
+        background-image: url('https://placehold.co/1200x400');
       }
     }
 
     @media (min-width: 1200px) {
       .hero {
-        background-image: url('https://via.placeholder.com/1600x400');
+        background-image: url('https://placehold.co/1600x400');
       }
     }
 
@@ -541,7 +541,7 @@
     <div class="example-section">
       <h2>Method 1: Max-Width (Most Common)</h2>
       <p>This image will scale down to fit smaller screens but never exceed its natural size.</p>
-      <img src="https://via.placeholder.com/800x400" alt="Sample" class="responsive-image">
+      <img src="https://placehold.co/800x400" alt="Sample" class="responsive-image">
       <pre><code>img {
   max-width: 100%;
   height: auto;
@@ -552,7 +552,7 @@
       <h2>Method 2: Object-Fit Cover</h2>
       <p>Image fills the container while maintaining aspect ratio (may crop).</p>
       <div class="image-container">
-        <img src="https://via.placeholder.com/800x400" alt="Cover example" class="cover-image">
+        <img src="https://placehold.co/800x400" alt="Cover example" class="cover-image">
       </div>
       <pre><code>img {
   width: 100%;
@@ -565,7 +565,7 @@
       <h2>Method 3: Object-Fit Contain</h2>
       <p>Entire image is visible, letterboxed if necessary.</p>
       <div class="image-container">
-        <img src="https://via.placeholder.com/800x400" alt="Contain example" class="contain-image">
+        <img src="https://placehold.co/800x400" alt="Contain example" class="contain-image">
       </div>
       <pre><code>img {
   width: 100%;
@@ -578,9 +578,9 @@
       <h2>Method 4: Picture Element with Multiple Sources</h2>
       <p>Serve different images for different screen sizes.</p>
       <picture>
-        <source media="(min-width: 1200px)" srcset="https://via.placeholder.com/1200x400">
-        <source media="(min-width: 768px)" srcset="https://via.placeholder.com/800x400">
-        <img src="https://via.placeholder.com/400x300" alt="Responsive" class="responsive-image">
+        <source media="(min-width: 1200px)" srcset="https://placehold.co/1200x400">
+        <source media="(min-width: 768px)" srcset="https://placehold.co/800x400">
+        <img src="https://placehold.co/400x300" alt="Responsive" class="responsive-image">
       </picture>
       <pre><code>&lt;picture&gt;
   &lt;source media="(min-width: 1200px)" srcset="large.jpg"&gt;
@@ -738,7 +738,7 @@
     <div class="row">
       <div class="col-md-4 mb-3">
         <div class="card">
-          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Card image">
+          <img src="https://placehold.co/400x200" class="card-img-top" alt="Card image">
           <div class="card-body">
             <h5 class="card-title">Card Title 1</h5>
             <p class="card-text">Some quick example text to build on the card title.</p>
@@ -748,7 +748,7 @@
       </div>
       <div class="col-md-4 mb-3">
         <div class="card">
-          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Card image">
+          <img src="https://placehold.co/400x200" class="card-img-top" alt="Card image">
           <div class="card-body">
             <h5 class="card-title">Card Title 2</h5>
             <p class="card-text">Some quick example text to build on the card title.</p>
@@ -758,7 +758,7 @@
       </div>
       <div class="col-md-4 mb-3">
         <div class="card">
-          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Card image">
+          <img src="https://placehold.co/400x200" class="card-img-top" alt="Card image">
           <div class="card-body">
             <h5 class="card-title">Card Title 3</h5>
             <p class="card-text">Some quick example text to build on the card title.</p>
