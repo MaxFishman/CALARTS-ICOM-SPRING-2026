@@ -1,10 +1,4 @@
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/California_Institute_of_the_Arts_logo.svg/200px-California_Institute_of_the_Arts_logo.svg.png" alt="Calarts Creative Computing Logo" width="300"/>
-</p>
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/California_Institute_of_the_Arts_logo.svg/200px-California_Institute_of_the_Arts_logo.svg.png" alt="Calarts Creative Computing Logo" width="300"/>
-</p>
-
+![Calarts Creative Computing Logo](https://i.imgur.com/235dOcD.png)
 
 ## Student Learning Outcomes
 - Students will learn the tools and technologies behind modern front end web development.
