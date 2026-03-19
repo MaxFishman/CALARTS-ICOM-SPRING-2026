@@ -4,9 +4,9 @@
 
 ## Assignment Week 2 
 
-Make an account on **Glitch**
+Make an account on **VS CODE**
 
-Design and code a "document" with HTML on Glitch
+Design and code a "document" with HTML on 
 
 Think about creating a Resume or CV, a simple flier for an event, liner notes for an album, or credits for a film. 
 
