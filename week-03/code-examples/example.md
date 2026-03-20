@@ -1,4 +1,4 @@
-# Code Examples - Week 03: CSS
+# Code Examples - Week 03: CSS Advanced PT1
 
 This document contains practical code examples demonstrating CSS concepts from Week 03.
 
