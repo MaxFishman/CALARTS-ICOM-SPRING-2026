@@ -1,12 +1,13 @@
 # Week 2
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/240px-HTML5_logo_and_wordmark.svg.png" alt="HTML5" width="120"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/240px-HTML5_logo_and_wordmark.svg.png" alt="HTML5" style="max-width: 100%; height: auto; width: min(120px, 80vw);"/>
 </p>
 
 ## Topics Covered
 
 ### Introduction to HTML
+
 - Elements and Tags and attributes
   - **Typography**
     - h1 - h6
@@ -22,9 +23,11 @@
 - Using Glitch / Codepen / Web Editors
 
 ## Lecture Notes
+
 See the `notes/` directory for lecture slides and materials.
 
 ## Code Examples
+
 See the `code-examples/` directory for hands-on coding examples.
 
 ## Homework
@@ -40,4 +43,3 @@ See the `code-examples/` directory for hands-on coding examples.
   - **Extra Credit:** Use an img tag to display an image
 
 ## Resources
-

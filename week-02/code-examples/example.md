@@ -16,11 +16,16 @@
 ### Paragraphs
 
 ```html
-<p>This is a paragraph. Paragraphs are used to organize text into blocks. 
-Browsers automatically add space before and after paragraphs to make them distinct.</p>
+<p>
+  This is a paragraph. Paragraphs are used to organize text into blocks.
+  Browsers automatically add space before and after paragraphs to make them
+  distinct.
+</p>
 
-<p>Here is another paragraph. You can have multiple paragraphs in your document,
-and each one will be separated by default spacing.</p>
+<p>
+  Here is another paragraph. You can have multiple paragraphs in your document,
+  and each one will be separated by default spacing.
+</p>
 ```
 
 ### Emphasis
@@ -28,9 +33,14 @@ and each one will be separated by default spacing.</p>
 ```html
 <p>This text has <em>emphasis</em> which typically renders as italic.</p>
 
-<p>This text has <strong>strong emphasis</strong> which typically renders as bold.</p>
+<p>
+  This text has <strong>strong emphasis</strong> which typically renders as
+  bold.
+</p>
 
-<p>You can also <strong><em>combine them</em></strong> for extra emphasis!</p>
+<p>
+  You can also <strong><em>combine them</em></strong> for extra emphasis!
+</p>
 ```
 
 ## HTML Layout Examples
@@ -55,8 +65,10 @@ and each one will be separated by default spacing.</p>
 ```html
 <p>This paragraph has a <span>word wrapped in a span</span> element.</p>
 
-<p>You can use span to <span>style specific words</span> or 
-<span>phrases within text</span> without breaking the flow.</p>
+<p>
+  You can use span to <span>style specific words</span> or
+  <span>phrases within text</span> without breaking the flow.
+</p>
 ```
 
 ### Semantic HTML5 Elements
@@ -72,12 +84,12 @@ and each one will be separated by default spacing.</p>
 <!-- Article with sections -->
 <article>
   <h1>Article Title</h1>
-  
+
   <section>
     <h2>Introduction</h2>
     <p>This section contains the introduction.</p>
   </section>
-  
+
   <section>
     <h2>Main Content</h2>
     <p>This section contains the main content.</p>
@@ -86,7 +98,11 @@ and each one will be separated by default spacing.</p>
 
 <!-- Figure with caption -->
 <figure>
-  <img src="chart.png" alt="Sales Chart">
+  <img
+    src="chart.png"
+    alt="Sales Chart"
+    style="max-width: 100%; height: auto;"
+  />
   <figcaption>Figure 1: Annual Sales Data</figcaption>
 </figure>
 ```
@@ -113,22 +129,58 @@ and each one will be separated by default spacing.</p>
 
 ```html
 <!-- Basic image -->
-<img src="photo.jpg" alt="A beautiful sunset">
+<img src="photo.jpg" alt="A beautiful sunset" />
 
-<!-- Image with width and height -->
-<img src="logo.png" alt="Company Logo" width="200" height="100">
+<!-- Responsive image with mobile-friendly styling -->
+<img
+  src="logo.png"
+  alt="Company Logo"
+  style="max-width: 100%; height: auto; width: min(200px, 80vw);"
+/>
 
 <!-- Image from external source -->
-<img src="https://placehold.co/300" alt="Placeholder Image">
+<img src="https://placehold.co/300" alt="Placeholder Image" />
+
+<!-- Responsive image with maximum constraints -->
+<img
+  src="banner.jpg"
+  alt="Company Banner"
+  style="max-width: 100%; height: auto; max-width: 600px;"
+/>
 ```
 
 ### Images with Links
 
 ```html
-<!-- Clickable image -->
+<!-- Clickable image with responsive sizing -->
 <a href="https://www.example.com">
-  <img src="banner.jpg" alt="Click to visit our site">
+  <img
+    src="banner.jpg"
+    alt="Click to visit our site"
+    style="max-width: 100%; height: auto;"
+  />
 </a>
+```
+
+## Mobile-Friendly Image Tips
+
+When adding images to your website, follow these best practices for mobile devices:
+
+1. **Always use responsive styling**: Add `style="max-width: 100%; height: auto;"` to prevent images from overflowing small screens
+2. **Use smart width constraints**: Use `width: min(200px, 80vw)` to set a maximum size but allow scaling on mobile
+3. **Avoid fixed pixel widths**: Instead of `width="300"`, use responsive CSS
+4. **Test on mobile**: Always check how your images look on mobile devices
+
+```html
+<!-- ❌ Bad: Fixed width that doesn't scale -->
+<img src="logo.png" alt="Logo" width="300" height="200" />
+
+<!-- ✅ Good: Responsive with smart constraints -->
+<img
+  src="logo.png"
+  alt="Logo"
+  style="max-width: 100%; height: auto; width: min(300px, 90vw);"
+/>
 ```
 
 ## Tips for Your Homework

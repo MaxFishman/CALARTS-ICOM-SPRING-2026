@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/California_Institute_of_the_Arts_logo.svg/200px-California_Institute_of_the_Arts_logo.svg.png" alt="Calarts Creative Computing Logo" width="300"/>
+  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/California_Institute_of_the_Arts_logo.svg/200px-California_Institute_of_the_Arts_logo.svg.png" alt="Calarts Creative Computing Logo" style="max-width: 100%; height: auto; width: min(300px, 90vw);"/>
 </p>
 
 Creative Computing at California Institute of the Arts is a forward-thinking interdisciplinary program that fuses the power of computational engineering skills with the limitless possibilities of artistic expression. This innovative degree encourages students to explore the intersection of technology and creativity, using computational tools to craft work that is both personally and culturally meaningful, while preparing them for industry. Our program is designed to provide an integrative learning experience that equips students with the skills to push the boundaries of art, music, and technology. With a strong foundation in computer science, electrical engineering, signal processing, and emerging technologies including virtual/augmented reality, robotics, and machine learning, students will be empowered to innovate, experiment, and reimagine what technology can do in artistic contexts.
@@ -10,10 +10,10 @@ Creative Computing at California Institute of the Arts is a forward-thinking int
 
 # Week 1
 
-
 ## Topics Covered
 
 ### Web Fundamentals
+
 - **Internet History**: From ARPANET (1969) to modern web (2020s)
 - **IP Addresses**: Understanding IPv4 and IPv6, public vs. private addresses
 - **DNS (Domain Name System)**: How domain names are resolved to IP addresses
@@ -23,6 +23,7 @@ Creative Computing at California Institute of the Arts is a forward-thinking int
 - **Full Stack Development**: Understanding the complete web application architecture
 
 ### Browser Developer Tools
+
 - Opening and navigating DevTools
 - Elements/Inspector panel for HTML and CSS inspection
 - Console panel for JavaScript testing and debugging
@@ -32,14 +33,17 @@ Creative Computing at California Institute of the Arts is a forward-thinking int
 - Practical exercises for exploring real websites
 
 ### Course Introduction
+
 - Welcome and course overview
 - Syllabus review
 - Development environment setup
 
 ## Lecture Notes
+
 See the `notes/` directory for lecture slides and materials.
 
 ## Code Examples
+
 See the `code-examples/` directory for hands-on coding examples.
 
 ## Homework
@@ -56,25 +60,30 @@ See the `code-examples/` directory for hands-on coding examples.
 ## Resources and Tools
 
 ### Understanding the Internet
+
 - [Brief History of the Internet](https://www.internetsociety.org/internet/history-internet/brief-history-internet/) - Internet Society
 - [How Does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm) - Stanford White Paper
 
 ### IP Addresses and DNS
+
 - [What is My IP Address?](https://www.whatismyip.com/) - Check your public IP
 - [DNS Explained](https://www.cloudflare.com/learning/dns/what-is-dns/) - Cloudflare Learning Center
 - [How DNS Works](https://howdns.works/) - Interactive DNS explanation
 
 ### Developer Tools
+
 - [Chrome DevTools Documentation](https://developer.chrome.com/docs/devtools/) - Official Chrome guide
 - [Firefox Developer Tools](https://firefox-source-docs.mozilla.org/devtools-user/) - Official Firefox guide
 - [Safari Web Inspector](https://webkit.org/web-inspector/) - Official Safari guide
 
 ### Web Development Fundamentals
+
 - [MDN Web Docs](https://developer.mozilla.org/) - Comprehensive web development reference
 - [W3Schools](https://www.w3schools.com/) - Tutorials and references
 - [Web.dev](https://web.dev/) - Google's web development best practices
 
 ### Tools to Try
+
 - [ipinfo.io](https://ipinfo.io/) - IP address information
 - [dnschecker.org](https://dnschecker.org/) - DNS lookup tool
 - [PageSpeed Insights](https://pagespeed.web.dev/) - Website performance testing
