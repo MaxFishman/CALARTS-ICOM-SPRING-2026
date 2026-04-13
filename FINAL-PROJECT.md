@@ -18,7 +18,7 @@ Footer with copyright and links to privacy policy and siteterms etc.
 You must use and correctly implement the following HTML elements and typographic features:
 
 ***Typography & Formatting***
-Six heading elements: <h1> through <h6>
+Six heading elements: h1 through h6
 
 Paragraphs: <p>
 
