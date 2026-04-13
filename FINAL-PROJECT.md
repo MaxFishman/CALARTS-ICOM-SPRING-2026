@@ -3,8 +3,8 @@
 GOAL:
 Create a fully functional, five-page website/app that showcases your complete knowledge of HTML, CSS, JavaScript, Wordpress, while utilizing best-practice SEO and Analytics techniques — your site will include proper formatting, styling, and embedded content. This project will simulate what its like building a real-world site with rich media, user inputted contact functionality, best practice code structure, accessibility, SEO, and analytics integration.
 
-*** Requirements***
-*** Page Structure***
+***Requirements***
+***Page Structure***
 A **minimum of 5 pages (seperate or one-page scroll) **: (Suggestions)
 Home
 About
@@ -41,7 +41,7 @@ Examples: a YouTube video, Google Map, Spotify playlist, CodePen embed, p5js web
 At least one embedded Google Font or custom font loaded via <link> or @import in CSS
 
 
-***🎨 CSS Requirements***
+***CSS Requirements***
 Use both internal and external stylesheets appropriately
 Layout with Flexbox and/or CSS Grid / Bootstrap or Tailwind
 Media queries for responsive layout (mobile/tablet/desktop)
