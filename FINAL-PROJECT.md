@@ -111,22 +111,36 @@ What was hard and how you solved it
 
 ***💯 Grading Breakdown (100 Points Total)***
 
-Correct use of HTML (structure, tags, syntax)	15
-CSS styling and responsive design	15
-JavaScript functionality	10
-Contact form (styled + functional)	10
-Embedded media and iframe	10
-Google Analytics integration	10
-Use of semantic HTML + accessibility	10
-Typography: headings, fonts, lists, emphasis	10
-Project completeness and project presentation	10
-🔥 Bonus Challenges (+10 Points Max)
-Links to an external site.
-Add a dark/light mode toggle
-Build a slideshow or popup/lightbox window
-Use CSS variables for theme styling
-Include a 404 Not Found page
-Use a custom favicon
+Correct use of HTML (structure, tags, syntax)	15 \
+
+CSS styling and responsive design	15 \
+
+JavaScript functionality	10\
+
+Contact form (styled + functional)	10\
+
+Embedded media and iframe	10\
+
+Google Analytics integration	10\
+
+Use of semantic HTML + accessibility	10\
+
+Typography: headings, fonts, lists, emphasis	10\
+
+Project completeness and project presentation	10\
+
+🔥 Bonus Challenges (+10 Points Max)\
+
+Add a dark/light mode toggle\
+
+Build a slideshow or popup/lightbox window\
+
+Use CSS variables for theme styling\
+
+Include a 404 Not Found page\
+
+Use a custom favicon \
+
 
 ***🎤 Final Presentation to the Class***
 
